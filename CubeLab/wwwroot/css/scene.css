@@ -1,0 +1,37 @@
+﻿/* Fullscreen scene without application controls. */
+
+:root {
+    color-scheme: dark;
+    font-family: Arial, sans-serif;
+    background: #10141c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.scene-host {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #10141c;
+}
+
+    .scene-host canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        touch-action: none;
+        user-select: none;
+        -webkit-user-select: none;
+    }

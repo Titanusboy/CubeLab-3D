@@ -1,0 +1,49 @@
+# Build output
+[Bb]in
+[Oo]bj
+[Aa]rtifacts
+[Pp]ublish
+
+# Visual Studio cache and local settings
+.vs
+.user
+.suo
+.userosscache
+.sln.docstates
+.sln.ide
+
+# IDE caches
+_ReSharper
+.DotSettings.user
+.idea
+
+# Local publish settings (may contain credentials)
+.pubxml.user
+.publishsettings
+
+# Test results and coverage
+TestResults
+coverage
+.coverage
+.coveragexml
+
+# Logs and temporary files
+.log
+.tmp
+.temp
+.bak
+.swp
+~
+
+# Frontend dependencies, if added later
+node_modules
+
+# Local environment variables
+.env
+.env.
+!.env.example
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
